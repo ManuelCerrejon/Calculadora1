@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author manuc
+ *
+ */
+module Empleado {
+}
