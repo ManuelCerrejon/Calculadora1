@@ -65,7 +65,7 @@ class empleadoTest {
 	void testCalculoNominaBrutaVendedor_1600_10() {
 		//fail("Not yet implemented");
 		tipo = tipo.vendedor;
-		ventaMes=1100;
+		ventaMes=1600;
 		horaExtra=10;
 		
 		float expected = 2500;
@@ -79,7 +79,7 @@ class empleadoTest {
 	void testCalculoNominaBrutaVendedor_1600_0() {
 		//fail("Not yet implemented");
 		tipo = tipo.vendedor;
-		ventaMes=1100;
+		ventaMes=1600;
 		horaExtra=0;
 		
 		float expected = 2200;
@@ -121,10 +121,10 @@ class empleadoTest {
 	void testCalculoNominaBrutaEncargado_1600_10() {
 		//fail("Not yet implemented");
 		tipo = tipo.encargado;
-		ventaMes=1100;
+		ventaMes=1600;
 		horaExtra=10;
 		
-		float expected = 2900;
+		float expected = 3000;
 		float actual = empleado.calculoNominaBruta (tipo, ventaMes, horaExtra);
 		assertEquals(actual, expected);
 		
@@ -135,10 +135,10 @@ class empleadoTest {
 	void testCalculoNominaBrutaEncargado_1600_0() {
 		//fail("Not yet implemented");
 		tipo = tipo.encargado;
-		ventaMes=1100;
+		ventaMes=1600;
 		horaExtra=0;
 		
-		float expected = 2800;
+		float expected = 2700;
 		float actual = empleado.calculoNominaBruta (tipo, ventaMes, horaExtra);
 		assertEquals(actual, expected);
 		
